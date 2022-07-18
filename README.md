@@ -11,3 +11,27 @@ Note that a rectangle can be represented by two coordinates, top left and bottom
 - r2: Bottom Right coordinate of second rectangle.
 
 
+Clone the project
+
+```bash
+  git clone https://github.com/barusko/rectangles
+```
+
+Go to the project directory:
+
+  cd rectangles
+
+Install Dependencies:
+
+```bash
+  mvn install -u
+```
+
+To run this project run
+
+```bash
+  mvn clean install 
+  mvn test
+```
+
+
